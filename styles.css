@@ -48,6 +48,22 @@ header {
   font-weight: bold;
 }
 
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.searchbar input {
+  background-color: var(--medium-white);
+  font-size: 1.25rem;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 24px;
+  box-shadow: inset 4px 4px 8px 1px rgba(0, 0, 0, 0.08);
+}
+
 .header-wrapper,
 .greeting-wrapper {
   display: flex;
