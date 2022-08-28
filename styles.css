@@ -64,10 +64,37 @@ header {
   box-shadow: inset 4px 4px 8px 1px rgba(0, 0, 0, 0.08);
 }
 
+.user-area {
+  display: flex;
+  align-items: center;
+}
+
+.notifications a {
+  text-decoration: none;
+  color: var(--title);
+}
+
+.profile-picture-sm img {
+  height: 2rem;
+  border-radius: 50%;
+}
+
 .header-wrapper,
 .greeting-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.profile-picture-md img {
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  line-height: 1.25;
 }
 
 .user-area {
@@ -83,10 +110,10 @@ header {
 button {
   background-color: var(--main-color);
   color: white;
-  font-size: 1rem;
-  padding: 6px 24px;
+  font-size: 1.25rem;
+  padding: 8px 32px;
   border: none;
-  border-radius: 16px;
+  border-radius: 32px;
   cursor: pointer;
   font-weight: bold;
 }
