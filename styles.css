@@ -19,22 +19,48 @@ nav {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
   color: white;
-  padding: 32px;
   display: flex;
   flex-flow: column;
-  gap: 64px;
+  gap: 32px;
   font-weight: bold;
 }
 
 .logo {
   font-size: 2rem;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo img {
+  height: 2.5rem;
 }
 
 .nav-group {
   font-size: 1.25rem;
   display: flex;
   flex-flow: column;
-  gap: 32px;
+}
+
+nav img {
+  height: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.144);
 }
 
 header {
