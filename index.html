@@ -4,55 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Dashboard</title>
   </head>
   <body>
     <nav>
-      <div class="nav-group">
+      <div class="title">
         <img src="./icons/logo_dashboard.svg" />
         <div>Dashboard</div>
       </div>
-      <div class="nav-group">
-        <a href="#">
-          <img src="./icons/home.svg" />
-          <div>Início</div>
-        </a>
-        <a href="#">
-          <img src="./icons/account.svg" />
-          <div>Perfil</div>
-        </a>
-        <a href="#">
-          <img src="./icons/messages.svg" />
-          <div>Mensagens</div>
-        </a>
-        <a href="#">
-          <img src="./icons/history.svg" />
-          <div>Histórico</div>
-        </a>
-        <a href="#">
-          <img src="./icons/tasks.svg" />
-          <div>Tarefas</div>
-        </a>
-        <a href="#">
-          <img src="./icons/communities.svg" />
-          <div>Comunidades</div>
-        </a>
-      </div>
-      <div class="nav-group">
-        <a href="#">
-          <img src="./icons/configurations.svg" />
-          <div>Configurações</div>
-        </a>
-        <a href="#">
-          <img src="./icons/help.svg" />
-          <div>Suporte</div>
-        </a>
-        <a href="#">
-          <img src="./icons/privacy.svg" />
-          <div>Privacidade</div>
-        </a>
-      </div>
+      <ul class="nav-group">
+        <li>
+          <a href="#">
+            <img src="./icons/home.svg" />
+            <div>Início</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/account.svg" />
+            <div>Perfil</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/messages.svg" />
+            <div>Mensagens</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/history.svg" />
+            <div>Histórico</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/tasks.svg" />
+            <div>Tarefas</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/communities.svg" />
+            <div>Comunidades</div>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav-group">
+        <li>
+          <a href="#">
+            <img src="./icons/configurations.svg" />
+            <div>Configurações</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/help.svg" />
+            <div>Suporte</div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./icons/privacy.svg" />
+            <div>Privacidade</div>
+          </a>
+        </li>
+      </ul>
     </nav>
     <header>
       <div class="header-wrapper">
@@ -156,47 +174,73 @@
           </div>
         </div>
       </section>
-      <section class="announcements">
-        <h1>Notícias</h1>
-        <div class="announcements-group">
-          <div class="announcement">
-            <h2>Manutenção no site</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              atque fuga dicta nesciunt labore numquam...
-            </p>
-          </div>
-          <div class="annonucement">
-            <h2>Atualizações das políticas de privacidade</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              atque fuga dicta nesciunt labore numquam...
-            </p>
-          </div>
-          <div class="announcement">
-            <h2>Título da notícia</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              atque fuga dicta nesciunt labore numquam...
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="trending">
-        <h1>Em alta</h1>
-        <div class="card-trending">
-          <div class="trending-profile">
-            <img
-              src="https://avatars.githubusercontent.com/u/101113159?v=4"
-              alt="Profile picture"
-            />
-            <div class="profile-wrapper">
-              <div class="username">@johndoe</div>
-              <div class="name">John Doe</div>
+      <aside>
+        <section class="announcements">
+          <h1>Notícias</h1>
+          <div class="announcements-group">
+            <div class="announcement">
+              <h2>Manutenção no site</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                atque fuga dicta nesciunt labore numquam...
+              </p>
+            </div>
+            <div class="annonucement">
+              <h2>Atualizações das políticas de privacidade</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                atque fuga dicta nesciunt labore numquam...
+              </p>
+            </div>
+            <div class="announcement">
+              <h2>Título da notícia</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                atque fuga dicta nesciunt labore numquam...
+              </p>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section class="trending">
+          <h1>Em alta</h1>
+          <div class="card-trending">
+            <div class="trending-profile">
+              <img
+                src="https://avatars.githubusercontent.com/u/101113159?v=4"
+                alt="Profile picture"
+              />
+              <div class="profile-wrapper">
+                <div class="username">@johndoe</div>
+                <div class="name">John Doe</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-trending">
+            <div class="trending-profile">
+              <img
+                src="https://avatars.githubusercontent.com/u/101113159?v=4"
+                alt="Profile picture"
+              />
+              <div class="profile-wrapper">
+                <div class="username">@johndoe</div>
+                <div class="name">John Doe</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-trending">
+            <div class="trending-profile">
+              <img
+                src="https://avatars.githubusercontent.com/u/101113159?v=4"
+                alt="Profile picture"
+              />
+              <div class="profile-wrapper">
+                <div class="username">@johndoe</div>
+                <div class="name">John Doe</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
     </main>
   </body>
 </html>
