@@ -141,6 +141,30 @@ body main {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  background-color: #e7e7e7;
+  padding: 2rem;
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+body main h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+body main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+body main .projects .projects-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+body main .projects .projects-group .project-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border-left: 0.5rem solid #f0b429;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=styles.css.map */
